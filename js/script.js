@@ -42,10 +42,10 @@ function getData() {
   });
 }
 
-$('#refresh').click(function() {
-  getData(lastten);
-});
-
 $(function() {
   getData();
+
+  $('#refresh').click(function() {
+    getData(lastten);
+  });
 });
