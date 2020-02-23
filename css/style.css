@@ -1,0 +1,10 @@
+th {
+  text-align: center;
+}
+tr {
+  text-align: center;
+}
+button {
+  display: flex;
+  align-items: center;
+}
